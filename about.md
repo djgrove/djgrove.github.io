@@ -1,15 +1,21 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+I'm Devon, a third-year at California Polytechnic State University, where I major in Computer Science and minor in Economics.
 
-### More Information
+I cannot imagine being at a different school at this stage. Though life changes rapidly, and I plan to attend grad school, 
 
-A place to include any other types of information that you'd like to include about yourself.
+### A Few Things
+
+I like to run.
+
+I like to run so much, in fact, . It keeps me quite busy, but I am challenged to become my best self each day as I pursue my athletic goals alongside my academic goals.
+
+Other favorite activities of mine include listening to music, playing guitar, nonfiction reading, . 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Below 
