@@ -10,12 +10,13 @@ I cannot imagine being at a different school at this stage. Though life changes 
 
 ### A Few Things
 
-I like to run.
+I love to run.
 
-I like to run so much, in fact, . It keeps me quite busy, but I am challenged to become my best self each day as I pursue my athletic goals alongside my academic goals.
+I love to run so much, in fact, that I compete in track and cross country at Cal Poly. It keeps me quite busy, but it challenges me to present my best self each day to achieve success individually and with my teammates.
 
-Other favorite activities of mine include listening to music, playing guitar, nonfiction reading, . 
+Other favorite activities of mine include listening to music, playing guitar, chess, nonfiction reading, and 
+[Rocket League](http://store.steampowered.com/app/252950/) (the greatest time-waster ever made).
 
 ### Contact me
 
-Below 
+Included in the page footer are links to my public GitHub account as well as my LinkedIn. The majority of my coursework from Cal Poly is kept within private repositories to protect academic integrity. It is available upon request.
