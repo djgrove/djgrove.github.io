@@ -25,8 +25,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 1080px;
+  padding: 0 50px;
   width: 100%;
 }
 
@@ -156,7 +156,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -194,8 +193,8 @@ img {
   margin: 0;
   color: $white;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: $georgia;
+  font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -252,6 +251,10 @@ nav {
 }
 
 .post {
+  h1 {
+    border-bottom: 1px solid $white;
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
