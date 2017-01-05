@@ -4,19 +4,12 @@ title: About Me
 permalink: /about/
 ---
 
-I'm Devon, a third-year at California Polytechnic State University, where I major in Computer Science and minor in Economics.
+I'm Devon, a third-year at [Cal Poly](http://calpoly.edu), where I major in Computer Science and minor in Economics. I cannot imagine being at a different school at this stage; the degree to which I have developed as a person during my time as a student astonishes me as I reflect on it.
 
-I cannot imagine being at a different school at this stage. Though life changes rapidly, and I plan to attend grad school, 
+I love running. So much, in fact, that I compete in track and cross country for my college. Traveling to competitions and training makes it challenging for me to do my very best academic work at all times, but this has contributed tremendously to my time-management skills. I don't regret a moment of my opportunities to run.
 
-### A Few Things
-
-I love to run.
-
-I love to run so much, in fact, that I compete in track and cross country at Cal Poly. It keeps me quite busy, but it challenges me to present my best self each day to achieve success individually and with my teammates.
-
-Other favorite activities of mine include listening to music, playing guitar, chess, nonfiction reading, and 
-[Rocket League](http://store.steampowered.com/app/252950/) (the greatest time-waster ever made).
+My other hobbies include music, playing guitar, chess, reading, and [Rocket League](http://store.steampowered.com/app/252950/) when I get the chance. Highly recommended.
 
 ### Contact me
 
-Included in the page footer are links to my public GitHub account as well as my LinkedIn. The majority of my coursework from Cal Poly is kept within private repositories to protect academic integrity. It is available upon request.
+At the bottom of the page are links to my public GitHub account as well as my LinkedIn. The majority of my coursework from Cal Poly is kept within private repositories to protect academic integrity, but is available upon request.
