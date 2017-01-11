@@ -12,4 +12,4 @@ Some friends and I redesigned and implemented new UI for the widely used profess
 
 ### My Personal Site
 
-If you are curious, I am hosting these pages using a combination of GitHub Pages and Jekyll, which has been . Everything is relatively vanilla HTML and CSS design, and blog posts are statically hosted. 
+If you are curious, I am hosting these pages using a combination of GitHub Pages and Jekyll. I have some more information about this process and what inspired it on [my about page](/about/).
