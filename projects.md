@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-
-
 ### [Mustang Marks](https://github.com/JuicyPasta/DNDHackathon)
 
 Some friends and I redesigned and implemented new UI for the widely used professor ratings site among students at Cal Poly called PolyRatings. We initially built the project at a hackathon, but continued development for some time afterwards during the quarter. Most of my work involved parsing ratings data from the existing site.
