@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-The late 1990's and early 2000's were an exciting time to be growing up around technology. My infatuation with computers began around this time, and it began innocuously enough: Backyard Baseball, Freddy Fish, 
+The late 1990's and early 2000's were an exciting time to be growing up around technology. My infatuation with computers began around this time, and it began innocuously enough: Backyard Baseball, Freddy Fish, the usual suspects.
 
 My first "exposure" to any sort of programming began when I got a bit older. I was a voracious reader, and Wikipedia gave me a good outlet to learn about new things. Eventually this turned to editing, and 
 
