@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $darkBlue;
-  font: 18px/1.4 $helvetica;
+  font: 3vmin/1.4 $helvetica;
   color: $white;
   font-weight: 200;
 }
@@ -46,28 +46,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 4.2vmin;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 3.36vmin;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2.8vmin;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 2.52vmin;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
-  margin-top: 30px;
+  margin: 2.1vmin 0;
+  margin-top: 4.2vmin;
 }
 
 a {
@@ -81,8 +81,8 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+  margin: 2.1vmin 0;
+  padding-left: 4.2vmin;
 }
 
 ul {
@@ -247,16 +247,16 @@ nav {
 //
 
 .banner {
-  font-size: 28px;
-  padding: 50px;
+  font-size: 3.92vmin;
+  padding: 7vmin;
 
   h1 {
     margin-top: 0px;
-    font-size: 40px;
+    font-size: 5.6vmin;
   }
 
   blockquote {
-    padding-top: 20px;
+    padding-top: 2.8vmin;
   }
 }
 
@@ -264,7 +264,7 @@ nav {
   min-height: 85vh;
 
   blockquote {
-    padding-top: 80px;
+    padding-top: 11.2vmin;
   }
 }
 
@@ -297,34 +297,34 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 3.08vmin;
     font-style: italic;
   }
 
   .comments {
-    margin-top: 10px;
+    margin-top: 1.4vmin;
   }
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 2.1vmin;
   }
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 7vmin;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 2.8vmin 0;
   text-align: center;
 }
 
 .img-skill {
-  height: 80px;
+  height: 11.2vmin;
 }
 
 // avoid bloating the top of file with imports
