@@ -1,20 +1,20 @@
 ---
 layout: default
 ---
-<div class="banner home-banner">
-	<div id="main" role="main" class="container">
- 		<h1>Welcome.</h1>
- 		
- 		<blockquote>I'm Devon, a third-year at Cal Poly in San Luis Obispo, California.</blockquote>
 
- 		<blockquote>I major in Computer Science, and minor in Economics.</blockquote>
+<div id="main-banner" class="banner home-banner">
+	<div role="main" class="container">
+ 		<h1>Welcome.</h1> 		
+ 		<blockquote class="tnsl-flicker">I'm Devon, a third-year at Cal Poly in San Luis Obispo, California.</blockquote>
 
- 		<blockquote>If I'm not writing code, I'm probably out running.</blockquote>
+ 		<blockquote class="tnsl-flicker">I study Computer Science, with minor in Economics.</blockquote>
+
+ 		<blockquote class="tnsl-flicker">If I'm not writing code, I'm probably out <a href="http://www.gopoly.com/sports/xc/2016-17/bios/grove_devon_ra5t?view=bio">running</a>.</blockquote>
 	</div>
 </div>
 
-<div class="banner light-banner full-banner">
-	<div id="main" role="main" class="container">
+<div id="skills-banner" class="banner light-banner full-banner">
+	<div class="container">
  		<h1>Skills</h1>
  		<h2>Proficient</h2>
  		<div class="row">
@@ -40,11 +40,45 @@ layout: default
 	</div>
 </div>
 
-<div class="banner">
-	<div id="main" role="main" class="container">
+<div id="resume-banner" class="banner">
+	<div class="container">
  		<h1>Resume</h1>
+ 		<button class="button btn-skills">test</button>
+
  		<blockquote>The full version is <a href="resume.pdf">available here</a> as a PDF.</blockquote>
 
  		<blockquote>Samples of my work can be found by clicking the GitHub link below, I can also be reached through LinkedIn.</blockquote>
 	</div>
 </div>
+
+ <script>
+      // initialize page with hacker-looking stuff
+      $(document).ready(function() {
+        var homeBanner = $('.home-banner');
+        homeBanner.css('background', 'black');
+        homeBanner.css('color', 'green');
+        homeBanner.css('font-family', 'monospace');
+
+        tnslInit();
+
+        /*setTimeout(function (){
+          homeBanner.css('background', '');
+          homeBanner.css('color', '');
+          homeBanner.css('font-family', '');
+        }, 5000);
+
+        // jQuery scroll page on button click
+        $('.btn-skills').click(function(){
+          $('html, body').animate({
+          scrollTop: $("#skills-banner").offset().top
+          }, 2000);
+        });
+
+        $('.btn-resume').click(function(){
+          $('html, body').animate({
+          scrollTop: $("#resume-banner").offset().top
+          }, 2000);
+        });*/
+
+      });
+</script>
