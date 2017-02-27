@@ -263,6 +263,19 @@ nav {
 .home-banner {
   min-height: 85vh;
 
+  h1 {
+    color: green;
+    font-family: monospace;
+  }
+
+  a {
+    color: green;
+  }
+
+  .container {
+    vertical-align: middle;
+  }
+
   blockquote {
     padding-top: 11.2vmin;
   }
