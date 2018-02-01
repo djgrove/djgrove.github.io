@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/devongrove
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://devongrove.com
+  * I am devongrove (https://keybase.io/devongrove) on keybase.
+  * I have a public key ASDnVgHscO5PVDQ3GeXh_uh0YzPbuOkLKw_fLY1Sm_4yIQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e75601ec70ee4f54343719e5e1fee8746333dbb8e90b2b0fdf2d8d529bfe32210a",
+      "host": "keybase.io",
+      "kid": "0120e75601ec70ee4f54343719e5e1fee8746333dbb8e90b2b0fdf2d8d529bfe32210a",
+      "uid": "026308e5386fe833979daa49affdee19",
+      "username": "devongrove"
+    },
+    "merkle_root": {
+      "ctime": 1517462836,
+      "hash": "e7c64f83bb5a943d1fcfdf727c1642c5145d10e6636ba6ca92c881e7b2966dabbb713bb9537fa7b9f69ed3e83f890ac24a49d6624247407e2351003e8a2c5491",
+      "hash_meta": "eb7876533005499da1287cf59e5c75965d1d988707b622ca3f630a51febac842",
+      "seqno": 2014426
+    },
+    "service": {
+      "hostname": "devongrove.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1517462853,
+  "expire_in": 504576000,
+  "prev": "6bffdf244146184db72f406d31f6d3980c1f980ee8fce0da7b30e08512ae2877",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg51YB7HDuT1Q0Nxnl4f7odGMz27jpCysP3y2NUpv+MiEKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTc1NjAxZWM3MGVlNGY1NDM0MzcxOWU1ZTFmZWU4NzQ2MzMzZGJiOGU5MGIyYjBmZGYyZDhkNTI5YmZlMzIyMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTc1NjAxZWM3MGVlNGY1NDM0MzcxOWU1ZTFmZWU4NzQ2MzMzZGJiOGU5MGIyYjBmZGYyZDhkNTI5YmZlMzIyMTBhIiwidWlkIjoiMDI2MzA4ZTUzODZmZTgzMzk3OWRhYTQ5YWZmZGVlMTkiLCJ1c2VybmFtZSI6ImRldm9uZ3JvdmUifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTc0NjI4MzYsImhhc2giOiJlN2M2NGY4M2JiNWE5NDNkMWZjZmRmNzI3YzE2NDJjNTE0NWQxMGU2NjM2YmE2Y2E5MmM4ODFlN2IyOTY2ZGFiYmI3MTNiYjk1MzdmYTdiOWY2OWVkM2U4M2Y4OTBhYzI0YTQ5ZDY2MjQyNDc0MDdlMjM1MTAwM2U4YTJjNTQ5MSIsImhhc2hfbWV0YSI6ImViNzg3NjUzMzAwNTQ5OWRhMTI4N2NmNTllNWM3NTk2NWQxZDk4ODcwN2I2MjJjYTNmNjMwYTUxZmViYWM4NDIiLCJzZXFubyI6MjAxNDQyNn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJkZXZvbmdyb3ZlLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzkifSwiY3RpbWUiOjE1MTc0NjI4NTMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNmJmZmRmMjQ0MTQ2MTg0ZGI3MmY0MDZkMzFmNmQzOTgwYzFmOTgwZWU4ZmNlMGRhN2IzMGUwODUxMmFlMjg3NyIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQOzigFXfNfllPE3LO0ZmvulzxB8W9EABruJBJlX/cVGYwFeyXZ5bGX32w7LB5/DJd/OoS4ttFZ1xfRjB69wwrAaoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAztAPylb+f/gZ/q1yNLplY5gslbrT3ucQ3yOLkebx5a6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/devongrove
+
+==================================================================
