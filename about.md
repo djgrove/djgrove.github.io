@@ -4,28 +4,22 @@ title: About Me
 permalink: /about/
 ---
 
-My exposure to computers began with the likes of Backyard Baseball, Freddy Fish, The Neverhood and other late 1990's computer games. To me, they were magic. I couldn't fathom what made them work; all that mattered to me was that they did.
+I'm a recent graduate of Cal Poly, San Luis Obispo. Most recently, I worked for Cal Poly's Information Technology Services department on the Web Content Management Systems team. We used Drupal CMS and associated PHP modules to service nearly all of Cal Poly's static subdomains.
 
-It wasn't until I got much older that I got into programming. I was a voracious reader growing up, and Wikipedia provided the perfect medium to learn about new things. Eventually I started editing articles and enjoyed tinkering with the pages, which basically consisted of basic HTML and [Markdown](https://en.wikipedia.org/wiki/Markdown).
+My exposure and interest in programming developed late in high school, though my infatuation with computers began when I was really young. One of my fondest memories is sitting on my dad's lap at age 3 playing [The Neverhood](https://en.wikipedia.org/wiki/The_Neverhood), and of course growing up in the tech Oasis that is Redmond, Washington, it was hard not to become interested in software development.
 
-## About This Site
+## Software Interests
 
-Originally. I was hosting this on AWS using a full blown (micro) EC2 server instance. At some point, I realized this was far more than I would ever need for my personal portfolio site. I decided to switch over to a simple S3 bucket to host my static pages, and eventually GitHub Pages became my tool of choice.
+My professional background lies in web application development, primarily with backend services. I really enjoy this work, but I have so many other areas I would like to explore further. I'm devoting time now to personal projects to improve my understanding of Angular and other frontend frameworks, and will be gracefully deploying them soon.
 
-This website is running the Jekyll WCMS, many thanks to Antriksh Yadev's [brilliant article and blog](http://antrikshy.com/about/this-site) about his own website for the inspiration. In short: Jekyll is a static site generator geared towards building blogs, but by customizing the default HTML layouts, SaSS, and JavaScript you can do some really cool stuff. Jekyll has exposed me to SaSS and has really encouraged me to avoid duplicating code (even the hex value of a repeatedly used color). I definitely encourage you to check out Antriksh's site if you're new to web development and want inspiration to start building cool stuff.
-
-As you can tell, I'm no god with CSS... I've worked pretty hard on getting the navbar how I like it but it's very excessive on mobile. Consider the UI of this site to be my CSS sandbox.
+I'm also passionate about DevOps tools and procedures. I've lead a project to integrate Docker into my team's workflow, and have aspirations to learn about Jenkins/Chef and other elements of the CI/CD pipeline.
 
 ## Hobbies
 
-I love running. So much, in fact, that [I compete in track and cross country for my college](). Traveling to competitions and training each day puts some strain on my mental fortitude for classwork, but I don't doubt this has contributed tremendously to my time-management skills. I don't regret a moment of my opportunities to run.
+I first got into running through track and cross country in high school. I was fortunate to be able to continue competing in college for Cal Poly for three years until injuries ended my career in 2017.
 
-My other hobbies include listening to music, playing guitar, chess, reading, and [Rocket League](http://store.steampowered.com/app/252950/) when I get the chance. Highly recommended.
+My other hobbies include golf, music, playing guitar, chess, reading, and [Rocket League](http://store.steampowered.com/app/252950/) when I get the chance.
 
 ## Contact me
 
 The best way to contact me is through LinkedIn or by my email through GitHub. Don't hesitate to reach out!
-
-### If you are a prospective employer seeking my academic coursework
-
-Beyond the projects included on this page, I have quite a bit of coursework from Cal Poly hosted in private GitHub repositories. This is done to protect academic integrity of myself and others. I will gladly make this available upon request.
