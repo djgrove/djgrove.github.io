@@ -18,7 +18,8 @@ I'm also passionate about DevOps tools and procedures. I've lead a project to in
 
 I first got into running through track and cross country in high school. I was fortunate to be able to continue competing in college for Cal Poly for three years until injuries ended my career in 2017.
 
-My other hobbies include golf, music, playing guitar, chess, reading, and [Rocket League](http://store.steampowered.com/app/252950/) when I get the chance.
+My other hobbies include golf, music, playing guitar, chess, reading, and
+[Rocket League](http://store.steampowered.com/app/252950/).
 
 ## Contact me
 
