@@ -2,66 +2,33 @@
 layout: default
 ---
 
-<div id="main-banner" class="banner home-banner">
-	<div role="main" class="container"> 
-    <div><h1 class="tnsl-flicker">Hello, I'm Devon.</h1></div>
-    <p>I'm a Software Developer and recent graduate of Cal Poly San Luis Obispo.</p>
-    <p>I specialize in backend web development (PHP/Python/Java) with interests in DevOps practices and frontend frameworks as well.</p>
-	</div>
-</div>
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+        <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
+                    <meta itemprop="datePublished" content="{{post.date}}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        <span class="day">
+                            {{ post.date | date: "%d" }}
+                        </span>
+                        <span class="month-year">
+                            {{ post.date | date: "%B %Y" }}
+                        </span>
+                    </time>
+                </a>
+                <div class="content">
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
+                    <p class="description">
+                        {{ post.content | strip_html | truncatewords:40 }}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+                    </p>
 
-<div id="skills-banner" class="banner light-banner full-banner">
-  <h1>Skills</h1>
-
-	<div class="container">
-      <div class="row">
-        <img src="images/php.png" class="img-skill">
-        <img src="images/python.png" class="img-skill">
-        <img src="images/mysql.png" class="img-skill">
-  	 		<img src="images/java.png" class="img-skill">
-  	 		<img src="images/C.png" class="img-skill">
-        <img src="images/html.png" class="img-skill">
-        <img src="images/css.png" class="img-skill">
-      </div>
-      <div class="row">
-      </div>
-	</div>
-</div>
-
-<div id="resume-banner" class="banner">
-  <h1>Resume</h1>
-	<div class="container">
- 		<blockquote>The full version is <a href="resume.pdf">available here</a> as a PDF.</blockquote>
-
- 		<blockquote>Samples of my work can be found by clicking the GitHub link below, I can also be reached through LinkedIn.</blockquote>
-	</div>
-</div>
-
- <script>
-      // initialize page with hacker-looking stuff
-      $(document).ready(function() {
-        var homeBanner = $('.home-banner');
-
-        tnslInit();
-
-        /*setTimeout(function (){
-          homeBanner.css('background', '');
-          homeBanner.css('color', '');
-          homeBanner.css('font-family', '');
-        }, 5000);
-
-        // jQuery scroll page on button click
-        $('.btn-skills').click(function(){
-          $('html, body').animate({
-          scrollTop: $("#skills-banner").offset().top
-          }, 2000);
-        });
-
-        $('.btn-resume').click(function(){
-          $('html, body').animate({
-          scrollTop: $("#resume-banner").offset().top
-          }, 2000);
-        });*/
-
-      });
-</script>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                            <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+        </article>
+    {% endfor %}
+</main>
