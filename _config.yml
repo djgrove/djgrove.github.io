@@ -2,7 +2,7 @@
 title: Devon Grove | Software Developer
 description: Devon Grove | Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://www.devongrove.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Devon Grove
