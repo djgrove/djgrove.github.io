@@ -1,18 +1,41 @@
 ---
 layout: post
-title: "Building a webapp with an entirely serverless backend: Part I"
+title: "Building a serverless pet project: Part I"
 date: 2019-02-26 20:32:44
 image: '/assets/img/'
-description: 'First steps to use this template'
+description: 'Running a dedicated web app at next to no cost'
 tags:
-- jekyll 
-- template 
+- aws
+- lambda
+- backend
 categories:
-- I love Jekyll
-twitter_text: 'How to install and use this template'
+- Backend development
+twitter_text: 'Serverless pet projects and AWS Lambda Part I'
 ---
 
-[Install Jekyll](http://jekyllrb.com)
+I've had a couple opportunities to become involved with "pet projects" either through personal interests or hackathons.
+They've been awesome ways to get my hands dirty with newer technologies like Angular and Firebase that aren't typically
+learned in CS degree programs, but managing the deployment of these apps is a hassle. As a student, I didn't want to have
+to worry about the configuration management that comes with running a dedicated cloud server like an AWS EC2 instance, and
+a dedicated instance is using a lot of compute time that my small project would really not need due to the lack of consistent
+traffic. That being said, it's nice to deploy pet projects in order to showcase a polished version of a web app to friends
+or prospective employers without worrying if your instance is running or if you've stopped it.
+
+Enter serverless web apps! Instead of managing a running instance, and paying for unused compute time, you write "functions"
+in the backend language of your choice (*ehhhh* with a catch), and your cloud provider will manage an environment for
+that function to run on, taking care of all the configuration details. The caveat is that some overhead goes into spinning
+up an environment to run your function when it is called by some type of trigger (an API for example), particularly if it
+hasn't been run in some time. This results in some additional latency when compared with a dedicated cloud server, but for
+the use case described here this isn't really noticeable enough to be an issue (at least it wasn't for me).
+
+In this guide, I'll be walking through some of the steps needed to deploy a serverless API to AWS
+
+* [AWS Lambda](https://aws.amazon.com/lambda) seems to lead the pack because AWS is still the most popular cloud provider right
+now. They support a ton of languages and seem to have a lot of libraries pre-installed in their runtime environment.
+* [IBM Cloud](https://www.ibm.com/cloud/functions) supports serverless functions as well.
+* fdlkfjldj
+*
+*
 
 ## Basic Setup
 
