@@ -17,10 +17,6 @@ var messages = {
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
-gulp.task('jekyll-rebuild', ['jekyll-dev'], function () {
-	browserSync.reload();
-});
-
 /**
  * Build the Jekyll Site
  */
