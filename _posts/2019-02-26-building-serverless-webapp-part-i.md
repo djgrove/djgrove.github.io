@@ -28,100 +28,51 @@ up an environment to run your function when it is called by some type of trigger
 hasn't been run in some time. This results in some additional latency when compared with a dedicated cloud server, but for
 the use case described here this isn't really noticeable enough to be an issue (at least it wasn't for me).
 
-In this guide, I'll be walking through some of the steps needed to deploy a serverless API to AWS
+Disclaimer: serverless computing is becoming very popular, but it feels like there is still a lot of work to be done before
+it reaches
+
+In this guide, I'll be walking through some of the steps needed to deploy a serverless API to AWS as this is my cloud provider
+of choice, but there are valid reasons to choose any of the major cloud providers. Here are links to the largest ones:
 
 * [AWS Lambda](https://aws.amazon.com/lambda) seems to lead the pack because AWS is still the most popular cloud provider right
-now. They support a ton of languages and seem to have a lot of libraries pre-installed in their runtime environment.
-* [IBM Cloud](https://www.ibm.com/cloud/functions) supports serverless functions as well.
-* fdlkfjldj
-*
-*
+now. They support a ton of languages and have a lot of libraries pre-installed in their runtime environment.
+* [Google Cloud Functions](https://cloud.google.com/functions/) are Google Cloud's serverless function tool. For projects that want to natively
+integrate with other GCP services this seems like a good choice, but as of this writing functions have to be written in NodeJS.
+* [IBM Cloud Functions](https://www.ibm.com/cloud/functions) supports serverless functions as well. I have no experience with IBM cloud,
+but they appear to be competitive with AWS Lambda for those who already have tools on the IBM Cloud platform.
+* [Microsoft Azure Functions](https://azure.microsoft.com/en-us/services/functions/) for use with Microsoft Azure. Like with IBM and GCP functions,
+choosing Azure functions is the obvious choice if you're more experienced with 
 
-## Basic Setup
+*to be continued...*
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for assigning categories and tags, and other YAML data.
-6. Read the documentation below for further customization pointers and documentation.
+## Sample Lambda function
 
-## Site and User Settings
+{% highlight python %}
 
-You have to fill some informations on `_config.yml` to customize your site.
+def lambda_handler(event, context):
+    # API Gateway will trigger and pass the details of the request in the 'event' argument
+    user_id = event["queryStringParameters"]['user']
 
-{% highlight ruby %}
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site 
+    # ensure that there was valid input
+    if (user_id is None):
+        return {
+            'statusCode': 400,
+            'body': 'Error: User ID was not provided.'
+        }
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+    user = get_user(user_id)
+
+    if (user is None):
+        return {
+            'statusCode': 404,
+            'body': 'Error: User was not found.'
+        }
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps(user)
+    }
+
 {% endhighlight %}
 
-## Color customization
-
-All color variables are in `src/styl/variable`. To change the main color, just set the new value at `main` assignment. Another colors are for texts and the code background color.
-
-## Creating posts
-
-You can use the `initpost.sh` to create your new posts. Just follow the command:
-
-{% highlight bash %}
-./initpost.sh -c Post Title
-{% endhighlight %}
-
-The new file will be created at `_posts` with this format `date-title.md`.
-
-## Front-matter 
-
-When you create a new post, you need to fill the post information in the front-matter, follow this example:
-
-{% highlight ruby %}
----
-layout: post
-title: "How to use"
-date: 2015-08-03 03:32:44
-image: '/assets/img/post-image.png'
-description: 'First steps to use this template'
-tags:
-- jekyll 
-- template 
-categories:
-- I love Jekyll
-twitter_text: 'How to install and use this template'
----
-{% endhighlight %}
-
-
-## Running the blog in local
-
-In order to compile the assets and run Jekyll on local you need to follow those steps:
-
-- Install [NodeJS](https://nodejs.org/)
-- Run `npm install` 
-- Run `gulp`
-
-## Questions
-
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@willian_justen](https://twitter.com/willian_justen) or file a [GitHub Issue](https://github.com/willianjusten/will-jekyll-template/issues/new).
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
-
-If you’d like to give me credit somewhere on your blog or tweet a shout out to [@willian_justen](https://twitter.com/willian_justen), that would be pretty sweet.
-
-
-
-
-
-
+*Note: Any corrections on blog content are welcomed and encouraged!*
